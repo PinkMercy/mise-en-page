@@ -1,0 +1,104 @@
+body {
+  width: fit-content;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  height: 210px;
+  border: 3px solid gray;
+  border-radius: 100px;
+  box-shadow: 5px 5px 8px 5px pink, inset 8px 8px 35px black;
+  /*inset 5px 8px 50px /*flou*/ /*10px /*kadeh bch tkaber l dholl lightgray, 
+    inset 5px 5px 30px 10px lightgray ;*/
+}
+
+header > h3 {
+  border-top: double 2px pink;
+  border-bottom: double 2px pink;
+  width: 50%;
+  margin: auto;
+}
+
+h2 {
+  padding: 10px;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+ol:not(:first-child) {
+  float: left;
+}
+strong {
+  text-decoration: underline;
+}
+
+section {
+  border: 3px solid darkred;
+  margin: 20px;
+  background: linear-gradient(to bottom right, white, gray, pink);
+}
+
+footer {
+  background-color: lightgray;
+  margin: 35px;
+  height: 50px;
+  padding: 10px 50px;
+  border-radius: 80px;
+}
+
+article {
+  height: 100px;
+  width: 100px;
+  border: 3px dashed;
+  margin: auto;
+}
+
+figure {
+  text-align: center;
+}
+
+nav {
+  margin: 20px;
+  background: linear-gradient(to bottom right, gray, pink);
+  height: 50px;
+  padding-left: 0px;
+}
+
+ol ul li {
+  list-style-image: url(Web.png);
+}
+nav ul li {
+  list-style-type: none;
+  float: left;
+  background-color: lightgray;
+  margin: 0px 2px;
+  padding: 16px 40px;
+}
+
+li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav + section {
+  float: left;
+}
+section + section {
+  float: left;
+}
+
+.left {
+  bottom: 0px;
+  float: left;
+
+}
+.right {
+  bottom: 0px;
+  float: right;
+}
+
+footer img{
+    float: right;
+}

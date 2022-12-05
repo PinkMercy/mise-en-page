@@ -1,3 +1,8 @@
+body {
+    width: fit-content;
+    margin: auto;
+  }
+
 header {
     text-align: center;
     height: 210px;
@@ -31,6 +36,7 @@ section {
     border: 3px solid darkred;
     margin: 20px;
     background: linear-gradient(to bottom right,white ,gray ,pink);
+display: flex;
 }
 
 footer {
@@ -39,6 +45,10 @@ footer {
     height: 50px;
     padding: 10px 50px ;
     border-radius: 80px;
+    display: flex;
+    flex-direction:row-reverse ;
+    justify-content: space-between;
+    align-items: center;
 }
 
 article {
@@ -56,7 +66,7 @@ nav {
 margin: 20px;
 background: linear-gradient(to bottom right,white ,gray ,pink);
 height:50px;
-padding-top:1px ;
+
 }
 
  ol ul li{
@@ -64,4 +74,23 @@ padding-top:1px ;
  }
 nav ul li {
     list-style-type:none;
+    background-color: lightgray;
+   padding: 16px 70px;
+}
+
+ li a{
+    color : black ;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+aside{
+    display: flex;
+}
+
+nav + section {
+    justify-content: right;
 }
